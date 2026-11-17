@@ -4,7 +4,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: gmatv61.live
     failed_since: 2026-09-03 19:11
-    failed_days: 74
+    failed_days: 75
     potentially_dead: true
   Flixer(flixer.*):
     last_known_mirror: flixer.gd
@@ -33,7 +33,7 @@ sites:
   iNat TV (inattv*.xyz):
     last_known_mirror: inattv1329.xyz
     failed_since: 2026-11-04 19:07
-    failed_days: 12
+    failed_days: 13
     potentially_dead: true
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
@@ -99,7 +99,7 @@ sites:
   Mapple-1 (mapple.*):
     last_known_mirror: mapple.fun
     failed_since: 2026-10-29 01:11
-    failed_days: 19
+    failed_days: 20
     potentially_dead: true
   Mapple-2 (mapplee.com):
     # probably with another domain name scheme
@@ -201,7 +201,7 @@ sites:
     # Fake Taraftarium24
     last_known_mirror: taraftarium24canlimacyayini.online
     failed_since: 2026-10-08 19:12
-    failed_days: 39
+    failed_days: 40
     potentially_dead: true
   Patron Futbol (patronfutbol*.cfd):
     last_known_mirror: patronfutbol66.cfd
@@ -245,7 +245,7 @@ sites:
     pattern_changed: true
     non_pattern_mirror: www.google.com
     failed_since: 2026-10-15 07:18
-    failed_days: 33
+    failed_days: 34
     potentially_dead: true
   Xsportv (xsportv-*.xyz):
     last_known_mirror: www.xsportv-de596bbe2f.xyz
@@ -266,7 +266,7 @@ sites:
     initial_domain: rtally.xyz
     last_known_mirror: www.rtally.xyz
     failed_since: 2026-11-05 01:10
-    failed_days: 12
+    failed_days: 13
     potentially_dead: true
   Trgooltv (trgooltv*.top):
     last_known_mirror: trgooltv73.top
@@ -274,7 +274,7 @@ sites:
   Taratv (taratv*.shop):
     last_known_mirror: taratv51.shop
     failed_since: 2026-11-07 01:09
-    failed_days: 10
+    failed_days: 11
     potentially_dead: true
   Kacakspor (kacakspor*.com):
     last_known_mirror: www.kacakspor5.com
@@ -286,78 +286,52 @@ sites:
     success_since: 2026-09-25 13:13
   VIPLeague (vipleague.*):
     last_known_mirror: vipleague.li
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   VIPBox (vipbox.*):
     last_known_mirror: vipbox.ga
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   Soccer Box (soccerbox.*):
     last_known_mirror: soccerbox.st
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   NBABox Streams (nbabox.*):
     last_known_mirror: nbabox.im
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   OlympicStreams (olympicweb.*):
     last_known_mirror: olympiclive.me
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   Pelitcanlitv (pelitcanlitv*.com):
     last_known_mirror: pelitcanlitv.com
     failed_since: 2026-10-11 19:11
-    failed_days: 36
+    failed_days: 37
     potentially_dead: true
   MMA Box (mmabox.*):
     last_known_mirror: mmabox.me
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   VIPRow Sports (viprow.*):
     last_known_mirror: www.viprow.lc
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   MLBBox Streams (mlbbox.*):
     last_known_mirror: mlbbox.me
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   F1Box Streams (f1box.*):
     last_known_mirror: f1live.me
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   NFLBox Streams (nflbox.*):
     last_known_mirror: nflbox.sx
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   Rugby Streams (rugbybox.*):
     last_known_mirror: rugbybox.me
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   DaddyLive (dlstreams.*):
     # initial_domain: dlhd.st
     last_known_mirror: thedaddy.li
     success_since: 2026-11-05 19:07
   Boxing Streams (boxingbox.*):
     last_known_mirror: boxingbox.me
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   WorldSports (worldsports.*):
     last_known_mirror: worldsports.si
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   TheTVApp (thetvapp.*):
     # initial_domain: tvapp.ws
     accept_antibot: true
@@ -377,18 +351,14 @@ sites:
   Tennis Online (tennisonline.*):
     # initial_domain: http://tennisstream.me
     last_known_mirror: tennisonline.im
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   Cricket Streams (cricwatch.*):
     last_known_mirror: cricwatch.io
-    failed_since: 2026-11-16 13:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-17 08:46
   Kodaman TV (kodamantv*.com):
     last_known_mirror: kodamantv21.com
     failed_since: 2026-11-03 01:09
-    failed_days: 14
+    failed_days: 15
     potentially_dead: true
   HarbiTV (harbitv*.live):
     last_known_mirror: harbitv9.live
@@ -500,8 +470,8 @@ sites:
     non_pattern_mirror: www.google.com
     success_since: 2026-10-28 13:11
   Taraftarium24bjk27 (taraftarium24bjk*.com):
-    last_known_mirror: taraftarium24bjk28.com
-    success_since: 2026-11-12 01:10
+    last_known_mirror: taraftarium24bjk29.com
+    success_since: 2026-11-17 08:46
   Inagaming TV (inagamingtv*.com):
     last_known_mirror: inagamingtv293.com
     success_since: 2026-11-06 07:10
@@ -544,4 +514,6 @@ sites:
     potentially_dead: true
   mangaraw.ac (mangaraw.*):
     last_known_mirror: mangaraw.ai
-    success_since: 2026-11-13 13:08
+    failed_since: 2026-11-17 08:46
+    failed_days: 0
+    potentially_dead: true
