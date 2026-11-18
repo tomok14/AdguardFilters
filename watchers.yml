@@ -4,7 +4,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: gmatv61.live
     failed_since: 2026-09-03 19:11
-    failed_days: 76
+    failed_days: 77
     potentially_dead: true
   Flixer(flixer.*):
     last_known_mirror: flixer.gd
@@ -33,7 +33,7 @@ sites:
   iNat TV (inattv*.xyz):
     last_known_mirror: inattv1329.xyz
     failed_since: 2026-11-04 19:07
-    failed_days: 14
+    failed_days: 15
     potentially_dead: true
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
@@ -89,9 +89,7 @@ sites:
   OnionPlay (onionplay.*):
     accept_antibot: true
     last_known_mirror: onionplay.ae
-    failed_since: 2026-11-18 13:08
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-11-18 21:04
   VidMoly (vidmoly.*):
     last_known_mirror: vidmoly.biz
     path: "/embed-embed.html"
@@ -203,7 +201,7 @@ sites:
     # Fake Taraftarium24
     last_known_mirror: taraftarium24canlimacyayini.online
     failed_since: 2026-10-08 19:12
-    failed_days: 41
+    failed_days: 42
     potentially_dead: true
   Patron Futbol (patronfutbol*.cfd):
     last_known_mirror: patronfutbol66.cfd
@@ -233,7 +231,7 @@ sites:
   Kralsports HD (kralsportshd*.xyz):
     last_known_mirror: kralsportshd8.xyz
     failed_since: 2026-10-11 13:13
-    failed_days: 38
+    failed_days: 39
     potentially_dead: true
   KickAssAnime (kaa.*):
     # initial_domain: kaa.to
@@ -304,7 +302,7 @@ sites:
   Pelitcanlitv (pelitcanlitv*.com):
     last_known_mirror: pelitcanlitv.com
     failed_since: 2026-10-11 19:11
-    failed_days: 38
+    failed_days: 39
     potentially_dead: true
   MMA Box (mmabox.*):
     last_known_mirror: mmabox.me
@@ -441,7 +439,7 @@ sites:
   Pornocudayi (pornocudayi*.com):
     last_known_mirror: pornocudayi69.com
     failed_since: 2026-10-28 13:11
-    failed_days: 21
+    failed_days: 22
     potentially_dead: true
   Turkifsa (turkifsa*.best):
     last_known_mirror: turkifsa24.best
@@ -472,8 +470,8 @@ sites:
     non_pattern_mirror: www.google.com
     success_since: 2026-10-28 13:11
   Taraftarium24bjk27 (taraftarium24bjk*.com):
-    last_known_mirror: taraftarium24bjk29.com
-    success_since: 2026-11-17 01:10
+    last_known_mirror: taraftarium24bjk30.com
+    success_since: 2026-11-18 21:04
   Inagaming TV (inagamingtv*.com):
     last_known_mirror: inagamingtv293.com
     success_since: 2026-11-06 07:10
