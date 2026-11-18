@@ -721,6 +721,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! The rules for content blockers only:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#content_blockers
 !
+stadt-bremerhaven.de###ab-hinweis
 shinden.pl##.ep-ads-note
 shinden.pl##.player-online > #ep-komunikat:has(> .message_list > .warning > a[href="/shop"])
 ecosia.org##div[data-test-id^="ad-block-notice"]
@@ -849,7 +850,6 @@ smartzone.de##.toast-ad-block-wrapper
 ||a.pemsrv.com/ad-provider.js$domain=xvideos.es,redirect=nooptext
 cloudfam.io##.cf-warning-section
 myradioonline.pl##.js-appAdv
-myradioonline.pl##.popup_layer
 myradioonline.pl#%#//scriptlet('prevent-element-src-loading', 'script', 'cfusion-internet.com')
 replacedbyrobot.info#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'window.getComputedStyle')
 manoramamax.com#$#body { overflow: auto !important; }
@@ -2489,6 +2489,7 @@ goduke.com,uwaterloo.ca##div[aria-label="Ad Blocker Detected"]
 ! SECTION[id=general]: Anti-adblock - Common '!#safari_cb_affinity(general)' directive
 !#safari_cb_affinity(general)
 !
+@@||apkcube.com^$generichide
 play.mercadolivre.com.br#@#.google-ad
 jetpunk.com#@#.ad-unit-2
 @@||ss.sport-express.ru/ads/system/context.js

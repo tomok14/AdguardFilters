@@ -1344,11 +1344,7 @@ fofmyanmar.com##center > a[rel="noopener noreferrer"] > img
 !
 ! NOTE: Croatian
 !
-@@||balkantelevizija.net^$generichide
-balkantelevizija.net#%#//scriptlet('prevent-fetch', 'adsbygoogle')
-!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=balkantelevizija.net
-!#endif
+||native.tportal.hr/black-friday/
 user.net.hr###net-product-gallery
 index.hr##div.js-carousel-campaign
 dnevnik.hr##.banner-holder
@@ -1382,6 +1378,12 @@ telegram.hr##.banner-separator
 ||widgets.jutarnji.hr^
 ||widget.marktjagd.de^
 vecernji.hr##div[data-client="vecernji_hr_spotlight"]
+! balkantelevizija.net
+@@||balkantelevizija.net^$generichide
+balkantelevizija.net#%#//scriptlet('prevent-fetch', 'adsbygoogle')
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=balkantelevizija.net
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178958
 hercegovina.info##.banner-placeholder
 hercegovina.info##.banner-space
@@ -6870,6 +6872,15 @@ delfi.lv#?#section > div[style]:has(> span:contains(/^Реклама$|^Reklāma$
 !---------------------------------------------------------------------
 !
 ! NOTE: Lithuanian
+kaunas.kasvyksta.lt###kasvyksta_lt_top
+kaunas.kasvyksta.lt##div.catheter-recovery-host:has(> .catheter-sponsored-card)
+kaunas.kasvyksta.lt##.raw-html-component--ad
+||krepsinis.net/catheter/detector.js^
+||tv3.lt/Uploads/image/TOP-7bet/
+krepsinis.net###toTheTop
+krepsinis.net##div[id^="k"][id*="x"][id*="krepsinis"][id*="net"]
+krepsinis.net##div[style*="space-between"]:has(> div[id^="krepsinis_net_"])
+krepsinis.net#$#.header-menu-segment { height: auto !important; }
 respublika.lt##div.news_swipable_desktop:has(> iframe.stpd-responsive-iframe)
 tavovaikas.lt##.tipi-col:has(> div.block-wrap-native div[id^="tavovaikas_lt_sidebar_front"])
 tavovaikas.lt##div[style]:has(> div.stpd-desktop-ad)
@@ -12368,6 +12379,10 @@ naszemiasto.pl#%#window.adBlockTest = true;
 ! https://github.com/AdguardTeam/AdguardFilters/issues/20613
 ! https://github.com/AdguardTeam/AdguardFilters/issues/15353
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11323
+shinden.pl##.hp-rot
+shinden.pl###sh-promo
+shinden.pl##.takie-tam
+shinden.pl##.sh-side-ad
 shinden.pl###spolSticky
 shinden.pl##.spolecznoscinet
 shinden.pl##iframe[src^="https://reklama.shinden.eu/adpeeps.php?"]
@@ -12376,6 +12391,8 @@ shinden.pl#%#//scriptlet('abort-current-inline-script', 'atob', 'getElementsByTa
 shinden.pl#%#//scriptlet("abort-on-property-read", "popjs.init")
 shinden.pl#%#//scriptlet("set-constant", "_pop", "noopFunc")
 shinden.pl#%#//scriptlet("abort-on-property-write", "AdservingModule")
+shinden.pl#%#//scriptlet('trusted-replace-argument', 'Document.prototype.querySelectorAll', '0', 'body', '[id^="spolecznosci-"] iframe')
+shinden.pl#%#//scriptlet('json-prune', 'bramka', 'bramkaLinki')
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter
 ||spolecznosci.net^$domain=shinden.pl,important
 ||smartadserver.com/ac$script,redirect=noopjs,domain=shinden.pl,important
@@ -13907,7 +13924,7 @@ asilmedia.org###banner
 ! NOTE: Vietnamese
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/242457
-cobephim.ink##.sspp-area
+cobephim.club##.sspp-area
 ! https://github.com/AdguardTeam/AdguardFilters/issues/241935
 motchille.ws#%#//scriptlet('set-constant', 'HTMLAnchorElement.prototype.click', 'noopFunc')
 motchille.ws##div.fixed.inset-0

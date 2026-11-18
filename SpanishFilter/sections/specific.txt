@@ -24,6 +24,7 @@ mundoisosgratis.com,actualidadiphone.com,lucrandoideias.com,proandroid.com,lusom
 !
 ! NOTE: Specific rules
 !
+wallapop.com##.ATnaPW_PublicProfileItems__card:has([class*="RetrievalItemCard__highlighted"])
 player.pelisserieshoy.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'Pop')
 viciados.net##.vgdb-home-ad
 viciados.net###vp-fundo
@@ -3242,7 +3243,7 @@ emol.com###adx_p
 clubic.com###annonce_pub2
 lanacion.com.py###ba_avanza
 lanacion.com.py###ba_interbanco
-tvserieslatino.com,dicasdereceitas.net,dicasgeeks.net,tvonline.global,ijuinews.com.br,peladas69.com,animeflv.net,cadenasuper.com,rcmpharma.com,terra.com.br###banner
+nove3cinco.pt,tvserieslatino.com,dicasdereceitas.net,dicasgeeks.net,tvonline.global,ijuinews.com.br,peladas69.com,animeflv.net,cadenasuper.com,rcmpharma.com,terra.com.br###banner
 folhadelondrina.com.br,braziliantimes.com###banner-topo
 vanguardia.com###banner0
 eleconomista.es,tudorondonia.com###banner1

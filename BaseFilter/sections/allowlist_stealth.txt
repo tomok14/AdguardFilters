@@ -35,6 +35,8 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/247139
+@@||cdn-mr.contentful.com^$stealth=3p-auth,domain=fido.ca
 ! https://github.com/AdguardTeam/AdguardFilters/issues/246887
 @@||filmmakinesi.to^$stealth=ip
 ! https://github.com/AdguardTeam/AdguardFilters/issues/246601
@@ -42,7 +44,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/246435
 @@||click/checklist/*.m3u8$stealth=referrer,domain=inat-tv.org|inattv.co
 ! https://github.com/AdguardTeam/AdguardFilters/issues/245889
-@@||t24yedekyayin36.xyz/*.jpg$stealth=referrer,domain=taraftarium24bjk28.com
+@@||t24yedekyayin36.xyz/*.jpg$stealth=referrer,domain=taraftarium24bjk29.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/246162
 @@||amz-ch.desu.pics/ch/storage/$image,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/245617

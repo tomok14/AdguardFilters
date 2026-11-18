@@ -6,6 +6,14 @@
 !
 ! NOTE: Specific rules
 !
+katowice24.info##.ad--bill-top ~ div.grid__row:has(> div.grid__col:only-child > div.card > div.custom-html-box > div.adv)
+mycompanypolska.pl##.custom-slot
+epiotrkow.pl##.box-ra:has(> .ad-link)
+epiotrkow.pl##.box-ra:has(> .w-100 > .hb-iframe)
+epiotrkow.pl##.box-ra:has(> .text-align-center > .ad-link)
+epiotrkow.pl##body > .container-fluid:has(> .text-center > .box-ra > .container > .ad-link)
+isstracker.pl##.pass-aside:has(> div._iss-lista-przelotow-pomiedzy-wynikami)
+isstracker.pl###map-cat-a
 radio.pl##div[data-ad-reserve]
 dlahandlu.pl##taboola-widget
 dlahandlu.pl##.header-partners
@@ -469,6 +477,8 @@ mototribe.pl##.widget-bkads:has(> a.bkads-link:not([href*="mototribe.pl/"]))
 vod.gazetapolska.pl##.gavias-blockbuilder-content > .gbb-row-wrapper:has(.adsense)
 wgospodarce.pl##.adunit-player-constant-height
 motopass.pl###zox-lead-top-wrap
+poscigi.pl##div[id^="posci-"][aria-label="Reklamy"]
+poscigi.pl##.wpb_wrapper > .td_block_wrap > .td-fix-index > div[style="text-align: center"] > a:not([href*="poscigi.pl"]) > img
 ||poscigi.pl/wp-content/uploads/*/Baner_
 tvrepublika.pl##.block--type-advertisement
 interia.pl##div[data-component^="ad-"]
@@ -5197,6 +5207,7 @@ naszemiasto.pl#%#window.adBlockTest = true;
 shinden.pl##.hp-rot
 shinden.pl###sh-promo
 shinden.pl##.takie-tam
+shinden.pl##.sh-side-ad
 shinden.pl###spolSticky
 shinden.pl##.spolecznoscinet
 shinden.pl##iframe[src^="https://reklama.shinden.eu/adpeeps.php?"]
@@ -5205,6 +5216,7 @@ shinden.pl#%#//scriptlet('abort-current-inline-script', 'atob', 'getElementsByTa
 shinden.pl#%#//scriptlet("abort-on-property-read", "popjs.init")
 shinden.pl#%#//scriptlet("set-constant", "_pop", "noopFunc")
 shinden.pl#%#//scriptlet("abort-on-property-write", "AdservingModule")
+shinden.pl#%#//scriptlet('trusted-replace-argument', 'Document.prototype.querySelectorAll', '0', 'body', '[id^="spolecznosci-"] iframe')
 shinden.pl#%#//scriptlet('abort-current-inline-script', 'Document.prototype.querySelectorAll', '/"spolecznosci-"|\.parentNode\.getBoundingClientRect\(\);/')
 shinden.pl#%#//scriptlet('json-prune', 'bramka', 'bramkaLinki')
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter

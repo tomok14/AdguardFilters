@@ -10,6 +10,8 @@
 ! NOTE: UA rules copied to Ukrainian filter
 ! TODO: Remove not multi lang rules with .ua tld after splitting the filter (look at the end of file)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/247121
+||kabanychrr4.com/site-support-guard.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/243621
 ani5.top,ani7.top,jut-su.online#%#//scriptlet('google-ima3')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/242938
@@ -166,6 +168,7 @@ positiverecords.ru#@#.ad-google
 ||tests24.su^$cookie=/^ai/
 ! pikabu.ru
 pikabu.ru#%#//scriptlet('abort-on-property-write', 'Ya')
+!+ NOT_PLATFORM(ext_ff)
 pikabu.ru$$script:contains(/\.getPropertyPriority.*=requestAnimationFrame/)
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli)
 pikabu.ru#%#//scriptlet('remove-node-text', 'script', '/xhr\[\'setRequestHeader\']|new window[\s\S]+ownerId/')
